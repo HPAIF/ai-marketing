@@ -26,7 +26,7 @@ and proof. Sources: `${CLAUDE_PLUGIN_ROOT}/docs/research.md`.
    - source or company fact found → `ok` (record link/file and date);
    - nothing found → `needs-source`; rewrite or remove it before the draft can be `ready`;
    - comparative, superlative, numeric, testimonial/logo/case study, security/compliance,
-     regulated sector, contest or discount → `needs-lawyer` with the exact question, asked directly (RULES: "Ask colleagues directly"), for the
+     regulated sector, contest or discount → `needs-lawyer` with the exact question (as "For @member: …", RULES: "Talk to colleagues only where the founder sees it") for the
      lawyer (rule 3). Marketing emails and newsletters also get a lawyer check on consent,
      sender identification and opt-out for the target market.
 6. **Status** — set `ready` only when no claim is `needs-source` and every `needs-lawyer` claim
