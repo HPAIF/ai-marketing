@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-marketing",
+  "description": "Install ai-marketing directly from its own repository. For the whole AI Team use the HPAIF/ai-team catalog.",
+  "owner": {
+    "name": "HPAIF",
+    "url": "https://github.com/HPAIF"
+  },
+  "plugins": [
+    {
+      "name": "ai-marketing",
+      "description": "AI Team in-house marketing assistant for founders of early-stage B2B companies: ICP and personas, positioning and messaging, content plans and drafts, website and landing copy, launch plans, channel and campaign reviews. Every claim backed by a source or company fact; legal checks go to the lawyer member. Drafts only — never publishes, posts, sends or buys ads.",
+      "source": "./",
+      "homepage": "https://github.com/HPAIF/ai-marketing"
+    }
+  ]
+}

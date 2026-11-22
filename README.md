@@ -22,6 +22,13 @@ In Claude Code:
 /plugin install ai-marketing@ai-team
 ```
 
+Or install only this member, straight from its repository:
+
+```
+/plugin marketplace add HPAIF/ai-marketing
+/plugin install ai-marketing@ai-marketing
+```
+
 Then, in your project, say **"set up the AI marketing"**. The `setup` skill creates (or joins) the
 private `ai-team/` workspace, asks your target market and language, and offers `.gitignore`,
 permissions and a monthly channel review. Nothing leaves your machine.
