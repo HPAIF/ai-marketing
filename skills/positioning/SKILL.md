@@ -30,7 +30,7 @@ fill-in-the-blank positioning statements. Sources: `${CLAUDE_PLUGIN_ROOT}/docs/r
 7. **Message house and story** — one-liner, ≤ 50-word pitch, three pillars with proof points;
    the seven StoryBrand parts; words to use and avoid. No superlatives without proof (rule 2).
 8. **Claims and lawyer** — any comparative, superlative or numeric claim → `claims.md` with
-   status `needs-lawyer` and the exact question for the lawyer (rule 3).
+   status `needs-lawyer` and the exact question, asked directly (RULES: "Ask colleagues directly"), for the lawyer (rule 3).
 9. **Show the founder** two options where a real choice exists (e.g. two categories), with the
    trade-off. Write the chosen version to `positioning.md` with a new version number and date;
    mark it `hypothesis` until tested with customers.
