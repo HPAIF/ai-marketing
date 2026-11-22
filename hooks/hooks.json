@@ -1,0 +1,16 @@
+{
+  "description": "At session start, shows the AI marketing member's memory for this project (deadlines, recent jobs, drafts awaiting approval, claims awaiting checks, pending learnings) when an ai-team/marketing workspace exists. Silent otherwise.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/session-context.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
